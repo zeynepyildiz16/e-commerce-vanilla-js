@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
 * {
   font-family: "Montserrat", sans-serif;
   padding: 0;
@@ -8,6 +9,43 @@
 
 :root {
   --black: #1c2a39;
-  --gray: #5c6a79;
+  --gray: #11003ac4;
   --purple: #4c3db2;
+}
+
+.navbar {
+  height: 120px;
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+
+.menu,
+.menu_ikonlari {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.menu .aktif {
+  color: var(--black);
+  font-weight: bold;
+}
+
+.menu li,
+.menu_ikonlari li {
+  margin: 0 10px;
+}
+
+.menu_ikonlari li {
+  color: var(--black);
 }
