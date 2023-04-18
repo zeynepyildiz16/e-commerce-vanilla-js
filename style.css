@@ -7,11 +7,15 @@
   margin: 0;
 }
 
+
+
 :root {
   --black: #1c2a39;
   --gray: #11003ac4;
   --purple: #4c3db2;
 }
+
+
 
 .navbar {
   height: 120px;
@@ -20,10 +24,11 @@
 
 }
 
+
+
 .title {
   font-weight: bold;
 }
-
 
 
 .menu,
@@ -36,16 +41,76 @@
   cursor: pointer;
 }
 
+
+
 .menu .aktif {
   color: var(--black);
   font-weight: bold;
 }
+
+
 
 .menu li,
 .menu_ikonlari li {
   margin: 0 10px;
 }
 
+
 .menu_ikonlari li {
   color: var(--black);
+}
+
+
+.sepet_ikon {
+  position: relative;
+}
+
+
+.sepetteki_urun {
+  position: absolute;
+  right: -0.7rem;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  background-color: var(--black);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.slider {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.imgyazilari {
+  color: var(--black);
+  position: absolute;
+  left: 40%;
+  bottom: 40px;
+
+}
+
+.imgyazilari2 {
+  color: var(--black);
+  position: absolute;
+  right: 250px;
+  bottom: 15px;
+
+}
+
+.imgyazilari3 {
+  color: whitesmoke;
+  position: absolute;
+  left: 80px;
+  bottom: 30px;
+
 }
