@@ -8,13 +8,11 @@
 }
 
 
-
 :root {
   --black: #1c2a39;
   --gray: #11003ac4;
   --purple: #4c3db2;
 }
-
 
 
 .navbar {
@@ -23,7 +21,6 @@
   margin-left: 10%;
 
 }
-
 
 
 .title {
@@ -42,12 +39,10 @@
 }
 
 
-
 .menu .aktif {
   color: var(--black);
   font-weight: bold;
 }
-
 
 
 .menu li,
@@ -82,35 +77,96 @@
   font-weight: bold;
 }
 
+
 .slider {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  height: 400px;
 }
 
 
+.slider img {
+  height: 400px;
+}
 
 
 .imgyazilari {
   color: var(--black);
   position: absolute;
   left: 40%;
-  bottom: 40px;
+  bottom: 20px;
 
 }
+
 
 .imgyazilari2 {
   color: var(--black);
   position: absolute;
-  right: 250px;
-  bottom: 15px;
+  left: 480px;
+  bottom: 150px;
 
 }
+
 
 .imgyazilari3 {
   color: whitesmoke;
   position: absolute;
   left: 80px;
-  bottom: 30px;
+  bottom: 5px;
 
 }
+
+
+.store {
+  width: 80%;
+  margin-left: 10%;
+  /* background-color: #a7b1c2; */
+  ;
+  height: 80px;
+}
+
+
+.kitap_karti {
+  height: 400px;
+}
+
+.fos {
+  font-family: "Open Sans", sans-serif;
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.black {
+  color: var(--black);
+}
+
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.yildizlar .bi-star,
+.bi-star-fill {
+  color: #eeedf5;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.yildizlar .bi-star-fill.active {
+  color: #f2c94c;
+}
+
+
+.kitap-bilgi {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* burda kaç satır gösterileceği belirtildi 4 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* ELipsis sonuna nokta nokta yapmamızı sağladı */
+}
+
