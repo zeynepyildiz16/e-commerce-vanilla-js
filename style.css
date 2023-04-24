@@ -294,11 +294,72 @@
 
 .sepet_liste {
   list-style-type: none;
-  padding: 0 5px;
+  padding: 10px;
+  margin-top: 3rem;
+  max-height: 650px;
+  overflow-y: auto;
 }
-.sepet_liste li{
+
+.sepet_liste li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
+.sepet_urun_bilgisi .kitap_adi {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sepet_urun_bilgisi .kitap_fiyat {
+  font-size: 16px;
+}
+
+.sepet_urun_bilgisi .kitap_eksiltmek {
+  cursor: pointer;
+  color: var(--gray);
+}
+
+.sepet_bilgi .kitap_adet {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+
+
+
+.kitap_adet .azaltmak {
+  margin-left: 5px;
+}
+
+
+.kitap_adet .arttirmak {
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+.kitap_adet .azaltmak,
+.arttirmak {
+  cursor: pointer;
+  color: var(--purple);
+}
+
+.sepet_toplami {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 5%;
+  align-items: center;
+  width: inherit;
+}
+
+.sepet_toplami button {
+  width: 250px;
+}
